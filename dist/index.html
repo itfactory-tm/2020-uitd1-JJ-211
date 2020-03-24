@@ -2,257 +2,275 @@
 <html lang="nl">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Stylish-portfolio - Bootstrap Theme</title>
-
-    <!-- CSS: Bootstrap, stylish portfolio, FA5 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Website webbureau">
+    <meta name="author" content="Wodran Van de Sande, Yanik Piessens, Zalmai Majid">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <title>webbureau</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="css/stylish-portfolio.min.css">
-
-    <!-- CSS: eigen stylesheet -->
     <link rel="stylesheet" href="css/webBureau.css">
-
+    <link rel="stylesheet" href="formulier.php">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <!--    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
+
 <body id="page-top">
 
 <!-- Navigation -->
-<a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
-</a>
-<nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-            <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#page-top">Home</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#services">Services</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-    </ul>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <img src="../favicon.ico" alt="Logo">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#download">Ontwerpers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#features">Potenties</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
 
-<!-- Header -->
-<header class="masthead d-flex">
-    <div class="container text-center my-auto">
-        <h1 class="mb-1">Stylish Portfolio</h1>
-        <h3 class="mb-5">
-            <em>A Free Bootstrap Theme by Start Bootstrap</em>
-        </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-lg-7 my-auto">
+                <div class="header-content mx-auto">
+                    <h1 class="mb-5">webbureau</h1>
+                    <a href="https://www.thomasmore.be/" class="btn btn-outline btn-xl js-scroll-trigger">Thomas More</a>
+                </div>
+            </div>
+            <div class="col-lg-5 my-auto">
+                <div class="device-container">
+                    <div class="device-mockup iphone6_plus portrait white">
+                        <div class="device">
+                            <div class="button">
+                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="overlay"></div>
 </header>
 
-<!-- About -->
-<section class="content-section bg-light" id="about">
-    <div class="container text-center">
+<section class="download bg-primary text-center" id="download">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-10 mx-auto">
-                <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our
-                    friends
-                    at
-                    <a href="https://unsplash.com/">Unsplash</a>!</p>
-                <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+            <div class="col-md mx-auto">
+                <h2 class="section-heading">Ontwerpers</h2>
+                <p>Wij zijn 3 ITF studenten aan de Thomas More hogeschool te Geel. Als opdracht hebben we deze website gemaakt voor ons webbureau. Voor meer vragen kan u ons altijd contacteren.</p>
+                <div>
+                    <div class="containert">
+                        <img src="./img/wodran.jpg" alt="Avatar" class="image img-fluid img-thumbnail">
+                        <div class="overlay overlayFade">
+                            <div class="text">Wodran Van de Sande</div>
+                            <ul class="media">
+                                <li><a href="https://www.facebook.com/wodran.vandesande"><i class="wit fab fa-facebook-f fa-2x"></i></a></li>
+                                <li><a href="mailto:r0748580@student.thomasmore.be"><i class="wit fas fa-envelope fa-2x"></i></a></li>
+                                <li><a href="https://www.instagram.com/wodran/"><i class="wit fab fa-instagram fa-2x"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="containert">
+                        <img src="./img/yanik.jpg" alt="Avatar" class="image img-fluid img-thumbnail">
+                        <div class="overlay overlayFade">
+                            <div class="text">Yanik Piessens</div>
+                            <ul class="media">
+                                <li><a href="https://www.facebook.com/yanik.piessens"><i class="wit fab fa-facebook-f fa-2x"></i></a></li>
+                                <li><a href="mailto:r@student.thomasmore.be"><i class="wit fas fa-envelope fa-2x"></i></a></li>
+                                <li><a href="https://www.instagram.com/yanikpiessens/"><i class="wit fab fa-instagram fa-2x"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="containert">
+                        <img src="./img/zalmia.jpg" alt="Avatar" class="image img-fluid img-thumbnail">
+                        <div class="overlay overlayFade">
+                            <div class="text">Zalmai Majid</div>
+                            <ul class="media">
+                                <li><a href="https://www.facebook.com/zalmaistifmeiste"><i class="wit fab fa-facebook-f fa-2x"></i></a></li>
+                                <li><a href="mailto:r0758123@student.thomasmore.be"><i class="wit fas fa-envelope fa-2x"></i></a></li>
+                                <li><a href="https://www.instagram.com/zalmaimajid/"><i class="wit fab fa-instagram fa-2x"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Services -->
-<section class="content-section bg-primary text-white text-center" id="services">
+<section class="features" id="features">
     <div class="container">
-        <div class="content-section-heading">
-            <h3 class="text-secondary mb-0">Services</h3>
-            <h2 class="mb-5">What We Offer</h2>
+        <div class="section-heading text-center">
+            <h2>Potenties</h2>
+            <p class="text-muted">Wij zijn 3 verschillende studenten met verschillende interesses. Hier onder vind u onze pluspunten</p>
+            <hr>
         </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-                <h4>
-                    <strong>Responsive</strong>
-                </h4>
-                <p class="text-faded mb-0">Looks great on any screen size!</p>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-                <h4>
-                    <strong>Redesigned</strong>
-                </h4>
-                <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-                <h4>
-                    <strong>Favorited</strong>
-                </h4>
-                <p class="text-faded mb-0">Millions of users
-                    <i class="fas fa-heart"></i>
-                    Start Bootstrap!</p>
-            </div>
-            <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-                <h4>
-                    <strong>Question</strong>
-                </h4>
-                <p class="text-faded mb-0">I mustache you a question...</p>
+        <div class="col-lg my-auto">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item">
+                            <i class="far fa-handshake fa-2x"></i>
+                            <h3>Samenwerken</h3>
+                            <p class="text-muted">"Teamwork makes the Dream work." Door samen te werken kom je tot het beste resultaat. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item">
+                            <i class="fas fa-random fa-2x"></i>
+                            <h3>Flexibel</h3>
+                            <p class="text-muted">Luisteren is onze taak. Wij voeren u ideeën uit en maken ze waar.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item">
+                            <i class="fas fa-flask fa-2x"></i>
+                            <h3>Creatief</h3>
+                            <p class="text-muted">U hoeft het niet te vragen, wij zorgen voor de finisching touch!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item">
+                            <i class="fas fa-comment-dots"></i>
+                            <h3>Communicatie</h3>
+                            <p class="text-muted">Heeft u vragen dan kan u altijd bij ons terecht. Wij helpen u graag verder.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Callout -->
-<section class="callout">
-    <div class="container text-center">
-        <h2 class="mx-auto mb-5">Welcome to
-            <em>your</em>
-            next website!</h2>
-        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download
-            Now!</a>
+<section class="cta">
+    <div class="cta-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Stop waiting, Start building!</h2>
+                    <!--                      <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>-->
+                </div>
+                <div class="build col-md-4">
+                    <i class="fas fa-desktop fa-5x"></i>
+                    <h4 class="pim">Webdesign</h4>
+                    <p>We zorgen ervoor dat het webdesign aansluit bij jouw doel en je bezoekers de juiste informatie te zien krijgen.</p>
+                    <div class="row">
+                        <div class="col-md">
+                            <i class="fas fa-laptop-code fa-5x"></i>
+                            <h4 class="pom">Grafisch</h4>
+                            <p>Op zoek naar een originele website die bij jou past? Wij gaan aan de slag met kleuren, lettertypes en afbeeldingen die bij u doel passen.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="build col-md-4">
+                    <i class="far fa-money-bill-alt fa-5x"></i>
+                    <h4 class="pim">Betaalbaar</h4>
+                    <p>Wij bieden een totaalpakket aan voor al uw grafische ontwerpen. Wij hanteren prijzen die lager zijn dan markt conform.</p>
+                    <div class="row">
+                        <div class="col-md">
+                            <i class="fas fa-info-circle fa-5x"></i>
+                            <h4 class="pom">Service</h4>
+                            <p>We behandelen u websites en kijken regelmatig na op fouten. Voor vragen kan u altijd contact met ons opnemen via <a href="mailto:r0744052@student.thomasmore.be">mail</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--
+<h2>Stop waiting.<br>Start building.</h2>
+<a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+-->
+            </div>
+        </div>
     </div>
+    <div class="overlay"></div>
 </section>
 
-<!-- Portfolio -->
-<section class="content-section" id="portfolio">
+<section class="contact bg-primary" id="contact">
     <div class="container">
-        <div class="content-section-heading text-center">
-            <h3 class="text-secondary mb-0">Portfolio</h3>
-            <h2 class="mb-5">Recent Projects</h2>
-        </div>
-        <div class="row no-gutters">
-            <div class="col-lg-6">
-                <a class="portfolio-item" href="#">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <h2>Stationary</h2>
-                            <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-                </a>
+        <h2>Contact</h2>
+        <form action="formulier.php" method="post">
+            <div class="row">
+                <p class="col-lg-3">
+                    <label for="naam">Naam:</label>
+                    <input type="text" id="naam" maxlength="50" name="gebruikersnaam" placeholder="Naam" required>
+                </p>
+                <p class="col-lg-3">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </p>
+                <p class="col-lg-3">
+                    <label for="tel">Telefoonnummer:</label>
+                    <input type="tel" id="tel" name="tel" placeholder="Telefoonnummer" required>
+                </p>
+
+                <p class="col-lg-3">
+                    <label for="dorp">Gemeente:</label>
+                    <select id="dorp" name="gemeente">
+                        <option value="Geel" selected>Geel</option>
+                        <option value="Turnhout">Turnhout</option>
+                        <option value="Herselt" >Herselt</option>
+                        <option value="Olen">Olen</option>
+                        <option value="Larum">Larum</option>
+                    </select>
+                </p>
             </div>
-            <div class="col-lg-6">
-                <a class="portfolio-item" href="#">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <h2>Ice Cream</h2>
-                            <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream
-                                cone!</p>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-                </a>
+            <div class="row">
+                <p class="col-lg">
+                    <label for="opmerking">Graag hier uw opmerkingen:</label>
+                    <textarea rows="5" cols="50" id="opmerking" name="opmerking" placeholder="Stel hier uw vraag ..."></textarea>
+                </p>
             </div>
-            <div class="col-lg-6">
-                <a class="portfolio-item" href="#">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <h2>Strawberries</h2>
-                            <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on
-                                top!</p>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-                </a>
+            <div class="row">
+                <p class="col">
+                    <input type="submit" value="Versturen">
+                </p>
             </div>
-            <div class="col-lg-6">
-                <a class="portfolio-item" href="#">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <h2>Workspace</h2>
-                            <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-                </a>
-            </div>
-        </div>
+        </form>
     </div>
 </section>
 
-<!-- Call to Action -->
-<section class="content-section bg-primary text-white">
-    <div class="container text-center">
-        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-    </div>
-</section>
-
-<!-- Contact -->
-<section id="contact" class="content-section">
-    <div class="container text-center">
-        <div class="content-section-heading text-center">
-            <h3 class="text-secondary mb-0">Contact</h3>
-            <h2 class="mb-5">Contact us</h2>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, explicabo iusto? Adipisci aliquam animi
-            autem, cupiditate doloremque enim id nulla numquam quae quasi, qui quidem tempore vel, veniam voluptatem
-            voluptatibus!</p>
-    </div>
-</section>
-
-<!-- Footer -->
-<footer class="footer text-center">
+<footer>
     <div class="container">
-        <ul class="list-inline mb-5">
+<!--        <img src="img/favicon.png" alt="Logo">-->
+        <p>&copy; Your Website 2019. All Rights Reserved.</p>
+        <ul class="list-inline">
             <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white mr-3" href="#">
-                    <i class="icon-social-facebook"></i>
-                </a>
+                <a href="#"><i class="kip fab fa-instagram"></i>Instagram</a>
             </li>
             <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white mr-3" href="#">
-                    <i class="icon-social-twitter"></i>
-                </a>
+                <a href="#"><i class="kip fab fa-facebook-f"></i>Facebook</a>
             </li>
             <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white" href="#">
-                    <i class="icon-social-github"></i>
-                </a>
+                <a href="https://www.thomasmore.be/"><i class="fas fa-university"></i>Thomas More</a>
             </li>
         </ul>
-        <p class="text-muted small mb-0">Copyright &copy; Your Website 2019</p>
     </div>
 </footer>
 
-<!-- Scroll to Top Button-->
-<a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-</a>
 
-<!-- JS: jQuery, Bootstrap, stylish portfolio -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
 <script src="js/stylish-portfolio.min.js"></script>
 
