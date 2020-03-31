@@ -55,7 +55,6 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: sans-serif;
 }
 
 .overlay {
@@ -74,7 +73,7 @@ p {
     height: 100%;
     bottom: 0;
     left: 0;
-    background-color: rgb(0, 191, 255, .8);
+    background-color: rgb(0, 191, 255);
 }
 
 .containert:hover .overlayFade {
@@ -119,7 +118,7 @@ section.cta {
 @media screen and (min-width: 760px) {
     section.cta h2 {
         text-align: center;
-        padding-top: 0px;
+        padding-top: 0;
     }
 }
 
@@ -164,6 +163,11 @@ h4.pom {
     /*    padding-bottom: 60px*/
 }
 
+section.projecten {
+    background-image: url(../img/regenboog.jpg); !important;
+    background-position: center;
+    background-size: cover;
+}
 
 /*Begin Contact*/
 section.contact {
