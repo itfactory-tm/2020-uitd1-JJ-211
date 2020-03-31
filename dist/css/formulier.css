@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fcbd20;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.container {
+    text-align: center;
+}
+
+a {
+    color: white !important;
+}
+
+br {
+    padding-top: 2px;
+}
+
+h1 {
+    margin-bottom: 15px !important;
+    font-size: 400%;
+}
+
+p.een {
+    font-size: 20px;
+}
+
+.w3-bar-item {
+    color: black !important;
+}
+
+.uitleg {
+    font-size: 20px;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+/*Footer*/
+
+footer {
+    margin-top: 497px;
+    padding-bottom: 15px;
+    padding-top: px;
+    background-color: #222222;
+    color: gray;
+}
+
+.media .fab {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+nav .media {
+    float: center;
+    margin-right: 75px;
+}
+
+.media {
+    margin-top: 25px;
+}
+
+.media li {
+    display: inline-block;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.media li a {
+    text-decoration: none;
+}
+
+.fab {
+    color: gray;
+    background-color: transparent;
+}
+
+/*
+.donkerblauw:hover {
+    color: blue;
+    background-color: transparent;
+}
+
+.blauw:hover {
+    color: dodgerblue;
+    background-color: transparent;
+}
+
+.orange:hover {
+    color: orangered;
+    background-color: transparent;
+}
+
+.rood:hover {
+    color: red;
+    background-color: transparent;
+}
+*/
