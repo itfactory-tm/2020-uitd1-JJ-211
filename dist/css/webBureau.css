@@ -107,14 +107,6 @@ section.features {
     font-family: 'Nunito', sans-serif !important;
 }
 
-/*Fourthpage*/
-section.cta {
-    background-image: url(../img/regenboog.jpg);
-    background-position: center;
-    background-size: cover;
-
-}
-
 @media screen and (min-width: 760px) {
     section.cta h2 {
         text-align: center;
@@ -154,19 +146,11 @@ section.cta p {
 h4.pim {
     text-transform: uppercase;
     padding-top: 10px;
-    /*    padding-bottom: 60px*/
 }
 
 h4.pom {
     text-transform: uppercase;
     padding-top: 10px;
-    /*    padding-bottom: 60px*/
-}
-
-section.projecten {
-    background-image: url(../img/regenboog.jpg); !important;
-    background-position: center;
-    background-size: cover;
 }
 
 /*Begin Contact*/
