@@ -34,7 +34,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="./index.html">
+            <a class="navbar-brand js-scroll-trigger" href="./dist/index.html">
                 <img src="dist/img/favicon.ico" alt="Logo">
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,13 +44,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="./index.html">Ontwerpers</a>
+                        <a class="nav-link js-scroll-trigger" href="./dist/index.html">Ontwerpers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="./index.html">Potenties</a>
+                        <a class="nav-link js-scroll-trigger" href="./dist/index.html">Potenties</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="./index.html">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="./dist/index.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -98,7 +98,7 @@
                 }
                 
                 ?>
-                        <a href="./index.html" class="btn btn-outline btn-xl js-scroll-trigger">Ga terug</a>
+                        <a href="./dist/index.html" class="btn btn-outline btn-xl js-scroll-trigger">Ga terug</a>
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@
 
     <footer>
         <div class="container">
-            <img src="../favicon.ico" alt="Logo">
+            <img src="dist/img/favicon.ico" alt="Logo">
             <p>&copy; Your Website 2019. All Rights Reserved.</p>
             <ul class="list-inline">
                 <li class="list-inline-item">
@@ -129,7 +129,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
-    <script src="js/stylish-portfolio.min.js"></script>
+    <script src="dist/js/stylish-portfolio.min.js"></script>
 
 </body>
 
