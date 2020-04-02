@@ -44,7 +44,7 @@ p.een {
 footer {
     margin-top: 497px;
     padding-bottom: 15px;
-    padding-top: px;
+    padding-top: auto;
     background-color: #222222;
     color: gray;
 }
@@ -55,7 +55,7 @@ footer {
 }
 
 nav .media {
-    float: center;
+    float: contour;
     margin-right: 75px;
 }
 
@@ -78,24 +78,3 @@ nav .media {
     background-color: transparent;
 }
 
-/*
-.donkerblauw:hover {
-    color: blue;
-    background-color: transparent;
-}
-
-.blauw:hover {
-    color: dodgerblue;
-    background-color: transparent;
-}
-
-.orange:hover {
-    color: orangered;
-    background-color: transparent;
-}
-
-.rood:hover {
-    color: red;
-    background-color: transparent;
-}
-*/
